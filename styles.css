@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    margin-bottom: 4%;
+
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+   
+}
+
+.doc{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+tr {
+    border: 2px solid #ccc; /* Add a border for each row */
+    
+}
+
+td {
+    padding: 10px; /* Add some padding for better spacing */
+    text-align: left; /* Align text to the left */
+    height: 50px;
+    width: 300px;
+    font-size: 17px;
+    padding-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Change link color */
+}
+
+a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+.full{
+    margin-left: 22%;
+}
+
+/*----------starting intro-------------*/
+
+.intro h1{
+    padding: 15px 0;
+   
+}
+.intro p{
+    margin-left: 1%;
+    font-size: 17px;
+}
+.intro li{
+    margin-left: 3%;
+    font-size: 17px;
+}
+
+/*------------Main section--------------------*/
+
+.main-section p{
+    font-size: 17px;
+    margin-left: 1%;
+
+}
+.main-section li{
+    font-size: 17px;
+    margin-left: 3%;
+}
+
+/*------------Hello world section--------------------*/
+#hello code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+/*------------variable section styles---------*/
+#variable p{
+    margin-left: 0;
+}
+
+/*----------------------declaration of variables part----------------*/
+#declaring code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 2.5;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 2%;
+    ;
+}
+/*---------part of variable scope style--------------------------------*/
+#variable-scope code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-left: 2%;
+    border-radius: 5px;
+} 
+/*----------constant-------------------*/
+#constants code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-left: 2%;
+    border-radius: 5px;
+
+}
+/*----------data types-------------*/
+#data-type li{
+    display: list-item;
+}
+#data-type ul li{
+    list-style-type: circle;
+    margin-left: 5%;
+}
+/*--------if statement--------------------------*/
+#if code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+/*----while statement-------------------------------*/
+#while code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-left: 2%;
+    border-radius: 5px; 
+}
+/*-------function declaration --------*/
+#function code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+/*-------footer part------*/
+footer{
+    margin-left: 23%;
+    margin-bottom: 5%;
+}
